@@ -1,0 +1,11 @@
+data/*
+!data/README.md
+outputs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.pt
+*.npz
+!models/**/*.pt
+!models/**/*.npz

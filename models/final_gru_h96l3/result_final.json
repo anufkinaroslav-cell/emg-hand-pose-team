@@ -1,0 +1,30 @@
+{
+ "args": {
+  "name": "final_gru_h96l3",
+  "arch": "gru",
+  "hidden": 96,
+  "layers": 3,
+  "dropout": 0.2,
+  "lr": 0.002,
+  "wd": 0.01,
+  "epochs": 40,
+  "steps": 30,
+  "batch": 24,
+  "crop": 300,
+  "stretch": 1.25,
+  "feat_noise": 0.1,
+  "glob_noise": 0.3,
+  "cls_w": 0.1,
+  "no_global": false,
+  "heads": 4,
+  "win": 150,
+  "shuffle_targets": false,
+  "seeds": 3,
+  "eval_every": 5,
+  "threads": 2,
+  "device": "auto",
+  "final": true,
+  "skip_cv": true,
+  "device_resolved": "cuda"
+ }
+}
